@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,500,700|Quicksand:300,400,500,600&display=swap');
+
+/* ..............................Colours */
+
+/* ..........HOME.......... */
+
+.bg-color-hero {
+    background-color: #131010d5;
+}
+
+.bg-color-racing {
+    background-color: #fafafa;
+}
+
+.racing-container h2 {
+    color: rgb(13, 17, 17);
+}
+
+.jumbotron-left,
+.jumbotron-right {
+    background-color: #053352c2;
+}
+
+.bg-color-social-home {
+    background-color: rgb(146, 185, 55);
+}
+
+.bg-color-footer {
+    background-color: #131010d5;
+}
+
+.bg-color-collaboration {
+    background-color: #ece5e5e5;
+}
+
+/* ..........PROFILE.......... */
+
+.bg-color-profile {
+    background-color: #d4ce7cef;
+}
+
+.green-jersey {
+    color: rgb(7, 102, 7);
+}
+
+.red-jersey {
+    color: rgb(201, 26, 26);
+}
+
+.light-green-jersey {
+    color: rgb(35, 161, 35);
+}
+
+.gold-medal {
+    color: rgba(216, 186, 17, 0.801);
+}
+
+.silver-medal {
+    color: silver;
+}
+
+/* ..........CONTACT.......... */
+
+.bg-color-contact {
+    background-color: #ece5e5e5;
+}
+
+.form-control {
+    background-color: #ece5e5e5;
+    border-color: #212529;
+}
+
+.bg-color-form-button {
+    background-color: #ece5e5e5;
+    border-color: #212529;
+}
+
+.bg-color-social-contact {
+    background-color: rgb(146, 185, 55)
+}
+
+/* ..............................Special paddings / margins / text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.container-fluid h2 {
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 414px) and (max-width: 1024px) {
+    .container-fluid h2 {
+        font-size: 36px;
+        letter-spacing: 3px;
+    }
+
+    #collaborate {
+        font-size: 32px;
+        letter-spacing: 3px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .container-fluid h2 {
+        font-size: 32px;
+        letter-spacing: 3px;
+    }
+    
+    #collaborate {
+        font-size: 28px;
+        letter-spacing: 3px;
+    }
+}
+
+/* ..........HOME PAGE.......... */
+
+/* ..............................Navbar */
+
+.navbar-brand {
+    font-family: "Muli", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #595959;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.nav-item {
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-item {
+        font-weight: 400;
+        font-size: 17px;
+        letter-spacing: 1.5px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .navbar-brand {
+        font-size: 24px;
+    }
+}
+
+
+/* ..............................Hero Image */
+
+.header-container {
+    height: 65vh;
+    color: #fff;
+}
+
+.hero-image {
+    width: 100%;
+    height: 400px;
+    background: url("../images/Cav_header.jpg") no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    background-size: cover;
+}
+
+.hero-outer {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(1.1)
+    }
+}
+
+.header-narrative {
+    padding: 0 24px;
+}
+
+.header-items {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #fafafa;
+    text-align: center;
+    border: 0;
+    padding: 56px 0;
+}
+
+.header-items ul li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 414px) {
+    .header-items ul li {
+        font-size: 16px;
+    }
+}
+
+/* ..............................Racing */
+
+.racing-container {
+    padding-bottom: 20px;
+}
+
+.racing-container h2 {
+    margin-bottom: 0;
+}
+
+.racing-container h3 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: #fafafa;
+    padding-bottom: 20px;
+}
+
+.jumbotron-left {
+    margin-left: 25px;
+    margin-right: 12.5px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.jumbotron-right {
+    margin-left: 12.5px;
+    margin-right: 25px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.jumbotron-left,
+.jumbotron-right p {
+    color: #fafafa;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1024px) {
+    .jumbotron-left, .jumbotron-right {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .jumbotron-left {
+        margin-bottom: 20px;
+    }
+
+    .racing-container h2 {
+        margin: 0;
+    }
+
+    .racing-container {
+        padding-bottom: 0;
+    }
+}
+
+/* ..............................Social */
+
+.social-links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-links li a i {
+    padding: 1%;
+    font-size: 200%;
+    line-height: 6px;
+    text-align: center;
+    color: #fafafa;
+    transform: all 0.35s ease-in-out;
+    -moz-transform: all 0.35s ease-in-out;
+    -webkit-transform: all 0.35s ease-in-out;
+    -o-transform: all 0.35s ease-in-out;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-images {
+    clear: both;
+    object-fit: contain;
+    padding: 0;
+    display: flex;
+}
+
+.social-images img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 1024px) {
+    .social-container-home h2 {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .social-container-home h2 {
+        margin-bottom: 0;
+    }
+
+    .social-links {
+        margin-top: 0;
+    }
+}
+
+/* ..............................Contact / Collaboration */
+
+.contact-collaboration {
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.collaboration-narrative {
+    margin-bottom: 0;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.collaboration-container {
+    padding-bottom: 40px;
+}
+
+.collaboration-container a {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: grey;
+    letter-spacing: 2px;
+    border: 1.5px solid #504c4c70;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+    .collaboration-container {
+        padding-bottom: 10px;
+    }
+
+    .collaboration-container h2 {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    .collaboration-narrative {
+        padding-bottom: 10px;
+    }
+}
+
+/* ..............................Footer */
+
+.footer-container {
+    padding: 15px;
+    color: #fff;
+    font-size: 12px;
+    text-align: right;
+}
+
+.footer-container p {
+    margin: 0;
+}
+
+/* ..........PROFILE PAGE.......... */
+
+.header-pic1,
+.header-pic2 {
+    padding: 0;
+    height: 350px;
+}
+
+.profile-column {
+    padding: 15px 0 25px 20px;
+}
+
+.profile-header,
+.achievements-header {
+    font-family: "Muli", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: rgb(13, 17, 17);
+    padding: 0 0 15px 0;
+}
+
+.profile-item {
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    color: rgb(13, 17, 17);
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.profile-item .key,
+.profile-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.profile-item .key p,
+.profile-item .value p {
+    margin: 0;
+}
+
+.profile-item .key {
+    width: 30%;
+    padding-top: 2px;
+    font-weight: 600;
+}
+
+.profile-item .value {
+    position: relative;
+    width: 60%;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 414px) {
+    .profile-header {
+        padding-right: 25px;
+    }
+
+    .profile-item .key {
+        width: 45%;
+        padding-right: 4px;
+        text-align: right;
+    }
+
+    .profile-item .value {
+        width: 50%;
+        padding: 0;
+        vertical-align: bottom;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .profile-header {
+        text-align: center;
+    }
+
+    .profile-item .key {
+        width: 40%;
+        padding-right: 4px;
+        text-align: right;
+        vertical-align: top;
+    }
+
+    .profile-item .value {
+        width: 56%;
+        padding: 0;
+    }
+}
+
+.achievements-column {
+    padding: 15px 0 25px 20px;
+}
+
+.road-header {
+    font-family: "Muli", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: rgb(13, 17, 17);
+    padding-top: 2px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.track-header {
+    font-family: "Muli", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: rgb(13, 17, 17);
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.road-victories {
+    padding-bottom: 40px;
+    margin-left: 20px;
+}
+
+.track-victories {
+    padding-bottom: 15px;
+    margin-left: 20px;
+}
+
+.road-race {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(13, 17, 17);
+    letter-spacing: 2px;
+    padding-right: 25px;
+    vertical-align: top;
+    text-align: right;
+    text-transform: uppercase;
+    border-right: 3px solid green;
+}
+
+.track-race {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(13, 17, 17);
+    letter-spacing: 2px;
+    padding-right: 25px;
+    padding-left: 30px;
+    vertical-align: top;
+    text-align: right;
+    text-transform: uppercase;
+    border-right: 3px solid green;
+}
+
+.race-result {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(13, 17, 17);
+    letter-spacing: 2px;padding-left: 25px;
+}
+
+#race-result-bottom {
+    margin-bottom: 25px;
+}
+
+
+/* ..........CONTACT PAGE.......... */
+
+.contact-container {
+    padding-bottom: 150px;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+}
+
+.contact-container h5 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #212529;
+    padding-left: 15px;
+}
+
+.contact-narrative {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #212529;
+
+    padding-top: 20px;
+    padding-left: 30px;
+    margin-bottom: 0;
+}
+
+.form-container {
+    padding-left: 0;
+    padding-bottom: 25px;
+}
+
+.form-input {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #212529;
+    margin: 8px 0;
+}
+
+::placeholder {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #212529;
+}
+
+.form-button {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #212529;
+    border: 1px solid;
+    margin-top: 24px;
+}
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(207, 146, 146, 0.2);
+    height: 35px;
+}
+
+.social-container-contact {
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .contact-container h2 {
+        font-size: 30px;
+    }
+    
+    .form-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .form-container div:first-child {
+        order: 1;
+    }
+
+    .form-container h5 {
+        text-align: center;
+    }
+
+    .contact-narrative {
+        text-align: center;
+        padding: 0;
+    }
+
+    .contact-container {
+        padding-bottom: 10px;
+    }
+
+    .contact-container h2 {
+        margin-bottom: 0;
+    }
+}
+
+/* ..........PROFILE PAGE.......... */
+
+.profile-header {
+
+}
+
