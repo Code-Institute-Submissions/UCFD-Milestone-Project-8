@@ -5,7 +5,7 @@
 /* ..........HOME.......... */
 
 .bg-color-hero {
-    background-color: #131010d5;
+    background-color: #070606d5;
 }
 
 .bg-color-racing {
@@ -44,7 +44,7 @@
 }
 
 .red-jersey {
-    color: rgb(201, 26, 26);
+    color: rgba(160, 11, 11, 0.87);
 }
 
 .light-green-jersey {
@@ -240,11 +240,12 @@ h4 {
     font-weight: 400;
     font-size: 26px;
     letter-spacing: 2px;
-    color: #fafafa;
+    color: #18300b;
     padding-bottom: 20px;
 }
 
 .jumbotron-left {
+    height: 300px;
     margin-left: 25px;
     margin-right: 12.5px;
     padding-top: 30px;
@@ -252,23 +253,43 @@ h4 {
 }
 
 .jumbotron-right {
+    height: 300px;
     margin-left: 12.5px;
     margin-right: 25px;
     padding-top: 30px;
     padding-bottom: 10px;
 }
 
-.jumbotron-left,
+.jumbotron-left h5 {
+    color: #fafafa;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.jumbotron-left p,
 .jumbotron-right p {
     color: #fafafa;
     font-family: "Quicksand", sans-serif;
     font-weight: 300;
-    font-size: 18px;
-    letter-spacing: 2px;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+.jumbotron-button {
+    background-color: rgba(197, 153, 153, 0.2);
+    color: #fafafa;
+}
+
+.next-race {
+    padding-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .jumbotron-left, .jumbotron-right {
+        height: 350px;
         margin-left: 0;
         margin-right: 0;
         text-align: center;
@@ -289,12 +310,12 @@ h4 {
 
 /* ..............................Social */
 
-.social-links {
+.social-links-home {
     text-align: center;
     margin-top: 10px;
 }
 
-.social-links li a i {
+.social-links-home li a i {
     padding: 1%;
     font-size: 200%;
     line-height: 6px;
@@ -306,7 +327,7 @@ h4 {
     -o-transform: all 0.35s ease-in-out;
 }
 
-.social-links li {
+.social-links-home li {
     display: inline;
 }
 
@@ -315,13 +336,22 @@ h4 {
     object-fit: contain;
     padding: 0;
     display: flex;
+    height: 100%;
+    overflow: hidden;
 }
 
 .social-images img {
     width: 100%;
-    height: auto;
+    height: 100%;
     vertical-align: middle;
+    overflow: hidden; 
 }
+
+/* .carousel-item {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+} */
 
 @media screen and (max-width: 1024px) {
     .social-container-home h2 {
@@ -367,12 +397,17 @@ h4 {
     font-family: "Quicksand", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: grey;
+    color: rgb(13, 17, 17);
     letter-spacing: 2px;
     border: 1.5px solid #504c4c70;
     margin-bottom: 20px;
     padding: 10px 50px;
     border-radius: 5px;
+}
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(58, 57, 57, 0.2);
+    height: 100%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -405,29 +440,52 @@ h4 {
 
 /* ..........PROFILE PAGE.......... */
 
-.header-pic1,
-.header-pic2 {
+.hero-image-profile {
+    width: 100%;
+    height: 100%;
+    background: url("../images/Cav_header_2.jpg") no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    background-size: cover;
     padding: 0;
-    height: 350px;
+    overflow: hidden;
+}
+
+.hero-outer-profile {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.profile-pic {
+    padding: 0;
+}
+
+.header-pic1 {
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .profile-column {
-    padding: 15px 0 25px 20px;
+    padding: 35px 0 25px 20px;
 }
 
 .profile-header,
 .achievements-header {
     font-family: "Muli", sans-serif;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 28px;
     letter-spacing: 3px;
     color: rgb(13, 17, 17);
-    padding: 0 0 15px 0;
+    padding: 0 0 25px 0;
 }
 
 .profile-item {
     font-family: "Quicksand", sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(13, 17, 17);
     letter-spacing: 2px;
     margin-bottom: 20px;
@@ -459,8 +517,13 @@ h4 {
 }
 
 @media screen and (max-width: 414px) {
+    .profile-column {
+        padding-top: 25px;
+    }
+    
     .profile-header {
         padding-right: 25px;
+        padding-bottom: 15px;
     }
 
     .profile-item .key {
@@ -473,6 +536,25 @@ h4 {
         width: 50%;
         padding: 0;
         vertical-align: bottom;
+    }
+
+    .profile-item {
+        margin-bottom: 10px;
+    }
+    .achievements-header {
+        padding-left: 30px;
+    }
+
+    .road-header {
+        padding-left: 56px;
+    }
+
+    .track-header {
+        padding-left: 56px;
+    }
+
+    .road-victories tr {
+        margin-bottom: 10px;
     }
 }
 
@@ -495,24 +577,24 @@ h4 {
 }
 
 .achievements-column {
-    padding: 15px 0 25px 20px;
+    padding: 35px 0 25px 40px;
 }
 
-.road-header {
+.road-header h5 {
     font-family: "Muli", sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 3px;
-    color: rgb(13, 17, 17);
+    color: rgb(47, 51, 51);
     padding-top: 2px;
     padding-left: 15px;
     padding-bottom: 15px;
 }
 
-.track-header {
+.track-header h5 {
     font-family: "Muli", sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 3px;
     color: rgb(13, 17, 17);
     padding-left: 15px;
@@ -532,7 +614,7 @@ h4 {
 .road-race {
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(13, 17, 17);
     letter-spacing: 2px;
     padding-right: 25px;
@@ -545,11 +627,11 @@ h4 {
 .track-race {
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(13, 17, 17);
     letter-spacing: 2px;
     padding-right: 25px;
-    padding-left: 30px;
+    padding-left: 34px;
     vertical-align: top;
     text-align: right;
     text-transform: uppercase;
@@ -559,9 +641,14 @@ h4 {
 .race-result {
     font-family: "Quicksand", sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(13, 17, 17);
-    letter-spacing: 2px;padding-left: 25px;
+    letter-spacing: 1px;
+    padding-left: 25px;
+}
+
+.race-result i {
+    padding-right: 15px;
 }
 
 #race-result-bottom {
@@ -572,7 +659,7 @@ h4 {
 /* ..........CONTACT PAGE.......... */
 
 .contact-container {
-    padding-bottom: 150px;
+    padding-bottom: 170px;
 }
 
 .contact-container h2 {
@@ -632,13 +719,29 @@ h4 {
     margin-top: 24px;
 }
 
-.hvr-sweep-to-bottom:before {
-    background: rgba(207, 146, 146, 0.2);
-    height: 35px;
-}
-
 .social-container-contact {
     margin: 0;
+}
+
+.social-links-contact {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-links-contact li a i {
+    padding: 1%;
+    font-size: 200%;
+    line-height: 6px;
+    text-align: center;
+    color: #fafafa;
+    transform: all 0.35s ease-in-out;
+    -moz-transform: all 0.35s ease-in-out;
+    -webkit-transform: all 0.35s ease-in-out;
+    -o-transform: all 0.35s ease-in-out;
+}
+
+.social-links-contact li {
+    display: inline;
 }
 
 @media screen and (max-width: 1024px) {
@@ -650,7 +753,6 @@ h4 {
         display: flex;
         flex-direction: column;
     }
-
 
     .form-container div:first-child {
         order: 1;
@@ -672,11 +774,94 @@ h4 {
     .contact-container h2 {
         margin-bottom: 0;
     }
+
+    .contact-container {
+        padding-bottom: 0;
+    }
+
+    .contact-container h2 {
+        margin-bottom: 0;
+    }
+
+    .social-links-contact {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .contact-container h2 {
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    
+    .form-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-container div:first-child {
+        order: 1;
+    }
+
+    .form-container h5 {
+        text-align: center;
+    }
+
+    .contact-narrative {
+        text-align: center;
+        padding: 0;
+    }
+
+    .contact-container {
+        padding-bottom: 0;
+    }
+
+    .contact-container h2 {
+        margin-bottom: 0;
+    }
+
+    .social-links-contact {
+        margin-bottom: 0;
+    }
+
+    .social-links-contact li a i {
+        font-size: 180%;
+    }
 }
 
 /* ..........PROFILE PAGE.......... */
 
-.profile-header {
-
+.social-container-profile {
+    margin: 0;
 }
 
+.social-links-profile {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-links-profile li a i {
+    padding: 1%;
+    font-size: 200%;
+    line-height: 6px;
+    text-align: center;
+    color: #fafafa;
+    transform: all 0.35s ease-in-out;
+    -moz-transform: all 0.35s ease-in-out;
+    -webkit-transform: all 0.35s ease-in-out;
+    -o-transform: all 0.35s ease-in-out;
+}
+
+.social-links-profile li {
+    display: inline;
+}
+
+@media screen and (max-width: 414px) {
+    .social-links-profile {
+        margin-bottom: 0;
+    }
+
+    .social-links-profile li a i {
+        font-size: 180%;
+    }
+}

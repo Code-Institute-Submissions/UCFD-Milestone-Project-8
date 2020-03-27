@@ -32,9 +32,6 @@
                         <a class="nav-link" href="profile.html">Profile</a>
                     </li>
                     <li class="nav-item ml-2">
-                        <a class="nav-link" href="#">Racing</a>
-                    </li>
-                    <li class="nav-item ml-2">
                         <a class="nav-link" href="/contact.html">Contact</a>
                     </li>
                 </ul>
@@ -43,15 +40,22 @@
     </header>
 
     <!-- ..........PROFILE HEADER.......... -->
-    <section>
-        <div class="row">
-            <img class="col-12 col-md-4 header-pic1" src="assets/images/Cav_profile.jpg" alt="Profile Pic">
-            <img class="d-none d-md-block col-md-8 header-pic2" src="assets/images/Cav_header_2.jpg" alt="Racing Profile Pic">
+    <section class="container-fluid">
+        <div class="row no gutters">
+            <div class="col-12 col-lg-4 profile-pic">
+                <img class="header-pic1" src="assets/images/Cav_profile.jpg" alt="Profile Pic">
+            </div>
+            <div class="d-none d-lg-block col-lg-8 profile-pic">
+                <section class="hero-outer-profile">
+                    <div class="hero-image-profile"></div>
+                </section>
+            </div>
+            <!-- <img class="d-none d-md-block col-md-8 header-pic2" src="assets/images/Cav_header_2.jpg" alt="Racing Profile Pic"> -->
         </div>
     </section>
     <section class="container-fluid">
         <div class="row">
-            <div class="col-md-4 profile-column bg-color-profile">
+            <div class="col-lg-4 profile-column bg-color-profile">
                 <div class="row">
                     <div class="col-12">
                         <h3 class="uppercase profile-header">Profile</h3>
@@ -106,7 +110,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-8 achievements-column bg-color-achievements">
+            <div class="col-lg-8 achievements-column bg-color-achievements">
                 <div class="row">
                     <div class="col-12">
                         <h3 class="uppercase achievements-header">Achievements</h3>
@@ -121,24 +125,24 @@
                             <tbody>
                                 <tr>
                                     <td class="road-race" rowspan="2">Tour de France</td>
-                                    <td class="race-result"><i class="fas fa-flag"></i> 30 stage victories</td>
+                                    <td class="race-result"><i class="fas fa-flag-checkered"></i> 30 stage victories</td>
                                 </tr>
                                 <tr>
-                                    <td class="race-result"><i class="fas fa-tshirt green-jersey"></i> 2011 Points Jersey winner</td>
+                                    <td class="race-result"><i class="fas fa-tshirt green-jersey"></i>2011 Points Jersey winner</td>
                                 </tr>
                                 <tr>
                                     <td class="road-race" rowspan="2">Giro d'Italia</td>
-                                    <td class="race-result"><i class="fas fa-flag"></i> 15 stage victories</td>
+                                    <td class="race-result"><i class="fas fa-flag-checkered"></i> 15 stage victories</td>
                                 </tr>
                                 <tr>
-                                    <td class="race-result"><i class="fas fa-tshirt red-jersey"></i> 2013 Points Jersey winner</td>
+                                    <td class="race-result"><i class="fas fa-tshirt red-jersey"></i>2013 Points Jersey winner</td>
                                 </tr>
                                 <tr>
                                     <td class="road-race" rowspan="2">Vuelta a Espana</td>
-                                    <td class="race-result"><i class="fas fa-flag"></i> 3 stage victories</td>
+                                    <td class="race-result"><i class="fas fa-flag-checkered"></i> 3 stage victories</td>
                                 </tr>
                                 <tr>
-                                    <td class="race-result"><i class="fas fa-tshirt light-green-jersey"></i> 2010 Points Jersey winner</td>
+                                    <td class="race-result"><i class="fas fa-tshirt light-green-jersey"></i>2010 Points Jersey winner</td>
                                 </tr>
                                 <tr>
                                     <td class="road-race">UCI World Road Race</td>
@@ -176,10 +180,10 @@
     </section>
 
     <!-- ..........SOCIAL LINKS.......... -->
-    <div class="container-fluid social-container-contact bg-color-social-contact">
+    <div class="container-fluid social-container-profile bg-color-social-contact">
         <div class="row">
             <div class="col-12 my-4">
-                <ul class="list-inline social-links">
+                <ul class="list-inline social-links-profile">
                 <li class="list-inline-item">
                     <a target="_blank" href="https://www.instagram.com/markcavendish/?hl=en">
                     <i class="fab fa-instagram" aria-hidden="true"></i>
