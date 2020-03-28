@@ -372,6 +372,9 @@ h4 {
     overflow: hidden; 
 }
 
+.image-container-home {
+    width: 960px;
+}
 /* .carousel-item {
     width: 100%;
     height: 100%;
