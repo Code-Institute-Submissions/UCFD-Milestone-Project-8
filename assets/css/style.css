@@ -287,12 +287,37 @@ h4 {
     padding-bottom: 0;
 }
 
-@media screen and (max-width: 1024px) {
-    .jumbotron-left, .jumbotron-right {
+@media screen and (max-width: 414px) {
+    .jumbotron-left,
+    .jumbotron-right {
         height: 350px;
         margin-left: 0;
         margin-right: 0;
         text-align: center;
+    }
+
+    .jumbotron-left {
+        margin-bottom: 20px;
+    }
+
+    .racing-container h2 {
+        margin: 0;
+    }
+
+    .racing-container {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 1024px) {
+    .jumbotron-left,
+    .jumbotron-right {
+        height: 350px;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .jumbotron-left {
@@ -440,6 +465,8 @@ h4 {
 
 /* ..........PROFILE PAGE.......... */
 
+/* ..............................Hero Image */
+
 .hero-image-profile {
     width: 100%;
     height: 100%;
@@ -469,12 +496,13 @@ h4 {
     width: 100%;
 }
 
+/* ..............................Profile */
+
 .profile-column {
     padding: 35px 0 25px 20px;
 }
 
-.profile-header,
-.achievements-header {
+.profile-header {
     font-family: "Muli", sans-serif;
     font-weight: 500;
     font-size: 28px;
@@ -541,9 +569,6 @@ h4 {
     .profile-item {
         margin-bottom: 10px;
     }
-    .achievements-header {
-        padding-left: 30px;
-    }
 
     .road-header {
         padding-left: 56px;
@@ -553,8 +578,17 @@ h4 {
         padding-left: 56px;
     }
 
-    .road-victories tr {
-        margin-bottom: 10px;
+    .race-item .key {
+        width: 45%;
+        padding: 4px;
+        vertical-align: right;
+    }
+
+    .race-item .value {
+        width: 50%;
+        padding: 0;
+        vertical-align: bottom;
+        float: left;
     }
 }
 
@@ -570,14 +604,83 @@ h4 {
         vertical-align: top;
     }
 
-    .profile-item .value {
+    .profile-item .values {
         width: 56%;
         padding: 0;
     }
 }
 
+/* ..............................Achievements */
+
+.achievements-header {
+    font-family: "Muli", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: 3px;
+    color: rgb(13, 17, 17);
+    padding: 0 0 25px 0;
+}
+
 .achievements-column {
     padding: 35px 0 25px 40px;
+}
+
+.road-race-table,
+.track-race-table {
+    padding-bottom: 20px;
+    width: 100%;
+    /* margin: 0 auto; */
+    margin-left: 0;
+}
+
+.road-race-table .road-race-row,
+.track-race-table .track-race-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.road-race-table .road-race-row .key,
+.track-race-table .track-race-row .key {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(13, 17, 17);
+    letter-spacing: 1px;
+    border-right: 3px solid green;
+    border-bottom: 0px;
+    flex-grow: 1;
+    width: 45%;
+    padding: 0.8em 1.0em 0 0;
+    overflow: hidden;
+    list-style: none;
+    text-align: right;
+}
+
+.road-race-table .road-race-row .value,
+.track-race-table .track-race-row .value {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(13, 17, 17);
+    letter-spacing: 1px;
+    border-bottom: 0px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    width: 55%;
+    padding: 0.8em 0 0 1.0em;
+    overflow: hidden;
+    list-style: none;
+}
+
+.road-race-row i,
+.track-race-row i {
+    padding-right: 10px;
+}
+
+.road-race-table .road-race-row .value p,
+.track-race-table .track-race-row .value p {
+    width: 100%;
+    margin-bottom: 5px;
 }
 
 .road-header h5 {
@@ -602,58 +705,24 @@ h4 {
 }
 
 .road-victories {
+    padding-left: 0;
     padding-bottom: 40px;
-    margin-left: 20px;
+    margin-left: 0;
 }
 
 .track-victories {
     padding-bottom: 15px;
-    margin-left: 20px;
+    margin-left: 0;
 }
 
-.road-race {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    color: rgb(13, 17, 17);
-    letter-spacing: 2px;
-    padding-right: 25px;
-    vertical-align: top;
-    text-align: right;
-    text-transform: uppercase;
-    border-right: 3px solid green;
+@media screen and (max-width: 414px) {
+    .achievements-header {
+        padding-left: 30px;
+    }
 }
 
-.track-race {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    color: rgb(13, 17, 17);
-    letter-spacing: 2px;
-    padding-right: 25px;
-    padding-left: 34px;
-    vertical-align: top;
-    text-align: right;
-    text-transform: uppercase;
-    border-right: 3px solid green;
-}
+/* ..............................Achievements */
 
-.race-result {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    color: rgb(13, 17, 17);
-    letter-spacing: 1px;
-    padding-left: 25px;
-}
-
-.race-result i {
-    padding-right: 15px;
-}
-
-#race-result-bottom {
-    margin-bottom: 25px;
-}
 
 
 /* ..........CONTACT PAGE.......... */
@@ -690,6 +759,7 @@ h4 {
 .form-container {
     padding-left: 0;
     padding-bottom: 25px;
+    height: 100vh;
 }
 
 .form-input {
@@ -744,6 +814,54 @@ h4 {
     display: inline;
 }
 
+.fixed-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 414px) {
+    .contact-container h2 {
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    
+    .form-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-container div:first-child {
+        order: 1;
+    }
+
+    .form-container h5 {
+        text-align: center;
+    }
+
+    .contact-narrative {
+        text-align: center;
+        padding: 0;
+    }
+
+    .contact-container {
+        padding-bottom: 0;
+    }
+
+    .contact-container h2 {
+        margin-bottom: 0;
+    }
+
+    .social-links-contact {
+        margin-bottom: 0;
+    }
+
+    .social-links-contact li a i {
+        font-size: 180%;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .contact-container h2 {
         font-size: 30px;
@@ -785,47 +903,6 @@ h4 {
 
     .social-links-contact {
         margin-bottom: 0;
-    }
-}
-
-@media screen and (max-width: 414px) {
-    .contact-container h2 {
-        font-size: 30px;
-        margin-top: 5px;
-    }
-    
-    .form-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .form-container div:first-child {
-        order: 1;
-    }
-
-    .form-container h5 {
-        text-align: center;
-    }
-
-    .contact-narrative {
-        text-align: center;
-        padding: 0;
-    }
-
-    .contact-container {
-        padding-bottom: 0;
-    }
-
-    .contact-container h2 {
-        margin-bottom: 0;
-    }
-
-    .social-links-contact {
-        margin-bottom: 0;
-    }
-
-    .social-links-contact li a i {
-        font-size: 180%;
     }
 }
 
