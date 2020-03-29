@@ -438,11 +438,13 @@ h4 {
     margin-bottom: 20px;
     padding: 10px 50px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(58, 57, 57, 0.2);
+    background: rgba(89, 88, 94, 0.5);
     height: 100%;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 1024px) {
