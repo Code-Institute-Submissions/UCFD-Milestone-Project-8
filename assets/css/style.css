@@ -118,11 +118,6 @@ h4 {
         font-size: 32px;
         letter-spacing: 3px;
     }
-    
-    #collaborate {
-        font-size: 28px;
-        letter-spacing: 3px;
-    }
 }
 
 /* ..........HOME PAGE.......... */
@@ -220,8 +215,18 @@ h4 {
 }
 
 @media screen and (max-width: 414px) {
+    .header-items ul {
+        padding-left: 0;
+    }
+
     .header-items ul li {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header-items ul {
+        padding-left: 0;
     }
 }
 
@@ -309,15 +314,20 @@ h4 {
     }
 }
 
-@media screen and (min-width: 414px) and (max-width: 1024px) {
+@media screen and (min-width: 420px) and (max-width: 1020px) {
     .jumbotron-left,
     .jumbotron-right {
         height: 350px;
         margin-left: 15px;
         margin-right: 15px;
         text-align: center;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .jumbotron-left p,
+    .jumbotron-right p {
+        font-size: 18px;
     }
 
     .jumbotron-left {
@@ -372,9 +382,6 @@ h4 {
     overflow: hidden; 
 }
 
-.image-container-home {
-    width: 960px;
-}
 /* .carousel-item {
     width: 100%;
     height: 100%;
@@ -722,6 +729,10 @@ h4 {
     .achievements-header {
         padding-left: 30px;
     }
+
+    .achievements-column {
+        padding-left: 0;
+    }
 }
 
 /* ..............................Achievements */
@@ -730,21 +741,8 @@ h4 {
 
 /* ..........CONTACT PAGE.......... */
 
-.contact-container {
-    padding-bottom: 170px;
-}
-
 .contact-container h2 {
     font-size: 36px;
-}
-
-.contact-container h5 {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 2px;
-    color: #212529;
-    padding-left: 15px;
 }
 
 .contact-narrative {
@@ -753,10 +751,8 @@ h4 {
     font-size: 14px;
     letter-spacing: 2px;
     color: #212529;
-
-    padding-top: 20px;
-    padding-left: 30px;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .form-container {
@@ -803,14 +799,10 @@ h4 {
 
 .social-links-contact li a i {
     padding: 1%;
-    font-size: 200%;
+    font-size: 250%;
     line-height: 6px;
     text-align: center;
     color: #fafafa;
-    transform: all 0.35s ease-in-out;
-    -moz-transform: all 0.35s ease-in-out;
-    -webkit-transform: all 0.35s ease-in-out;
-    -o-transform: all 0.35s ease-in-out;
 }
 
 .social-links-contact li {
@@ -825,9 +817,14 @@ h4 {
 }
 
 @media screen and (max-width: 414px) {
+    .contact-container {
+        padding-bottom: 0;
+    }
+
     .contact-container h2 {
         font-size: 30px;
         margin-top: 5px;
+        margin-bottom: 0;
     }
     
     .form-container {
@@ -835,25 +832,9 @@ h4 {
         flex-direction: column;
     }
 
-    .form-container div:first-child {
-        order: 1;
-    }
-
-    .form-container h5 {
-        text-align: center;
-    }
-
     .contact-narrative {
         text-align: center;
         padding: 0;
-    }
-
-    .contact-container {
-        padding-bottom: 0;
-    }
-
-    .contact-container h2 {
-        margin-bottom: 0;
     }
 
     .social-links-contact {
@@ -861,13 +842,18 @@ h4 {
     }
 
     .social-links-contact li a i {
-        font-size: 180%;
+        font-size: 160%;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width) and (max-width: 1024px) {
+    .contact-container {
+        padding-bottom: 0;
+    }
+    
     .contact-container h2 {
-        font-size: 30px;
+        font-size: 34px;
+        margin-bottom: 0;
     }
     
     .form-container {
@@ -875,33 +861,9 @@ h4 {
         flex-direction: column;
     }
 
-    .form-container div:first-child {
-        order: 1;
-    }
-
-    .form-container h5 {
-        text-align: center;
-    }
-
     .contact-narrative {
         text-align: center;
-        padding: 0;
-    }
-
-    .contact-container {
-        padding-bottom: 10px;
-    }
-
-    .contact-container h2 {
-        margin-bottom: 0;
-    }
-
-    .contact-container {
-        padding-bottom: 0;
-    }
-
-    .contact-container h2 {
-        margin-bottom: 0;
+        padding: 20px 10px;
     }
 
     .social-links-contact {
