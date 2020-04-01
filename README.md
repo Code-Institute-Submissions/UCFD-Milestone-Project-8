@@ -13,4 +13,14 @@ The website has been designed for a range of users - from those who are cycling 
 The consolidated platform enables users to learn about Mark's past success, follow his latest racing schedule, explore his social channels and, as appropriate, easily contact Mark to discuss the potential of a commercial partnership.
 
 #### User Stories
+As a new user of this website, I want to be able to:
+* intuitively understand the flow of the content and format.
+* quickly understand how to navigate through the website.
+* be engaged through content styling, format and content.
+
+As a new or repeat user who is an "active" cycling fan, I want to be able to:
+* easily locate information on Mark's latest racing result.
+* access more in-depth reporting on the race through a link to an relevant external website.
+* easily see the next event in which Mark is scheduled to race.
+
 
