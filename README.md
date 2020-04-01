@@ -35,3 +35,21 @@ As a new user who is a potential collaboration partner with Mark, I want to be a
 ### Wireframes
 Wireframes for this website can be accessed in my wireframes folder within this github repository - https://github.com/MichaelpHann/UCFD-Milestone-Project/tree/master/wireframes
 
+## Features
+
+### Layout
+The website was designed with simplicity in mind, whilst being immediately engaging for the user. Having several features/sections on the main hompeage allows the user to easily find a point of particular interest. The subsequent two pages provide for more specific use functions.
+
+### Font
+There are two fonts used throughout the website - "Muli" and "Quicksand". Both are engaging, easy to read and versatile. A variety of letter spacing has been used throughout the website.
+
+### Existing Feature
+* *Navigation Bar* - This has been sourced from Boostrap with adhoc styling applied in this project. The navbar is implemented in a consistent manner across all three website pages. It clearly displays the user menu options. It is device responsive and the menu items will collapse into a dropdown menu depending on device size. The MARK CAVENDISH header/title acts as an alternative homepage link/menu option.
+
+* *Racing jumbotron & external links* - The two distinct subsections are created through implementation of Bootstrap jumbotrons, with adhoc styling applied in this project. These jumbotrons are device responsive. The external links direct the user to relevant additional information.
+
+* *Social image carousel & social links* - The image carousel hs been sourced from Boostrap with adhoc styling applied in this project. The feature controls allow users to click through images or return to a previous image. The carousel is device responsive.
+
+Social links have been included on the Homepage in the *Social* section and as part of the footer in the other two website pages. Although asymmetric in terms of location of the social links on the Homepage versus the other two pages, I have attempted to connect them visually through use of the same bold colour.
+
+
