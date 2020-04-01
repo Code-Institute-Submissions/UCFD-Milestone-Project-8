@@ -23,4 +23,14 @@ As a new or repeat user who is an "active" cycling fan, I want to be able to:
 * access more in-depth reporting on the race through a link to an relevant external website.
 * easily see the next event in which Mark is scheduled to race.
 
+As a new user who wants to learn more about Mark, I want to be able to:
+* easily find information about who Mark is, including his background in cycling.
+* readily access his various social channels to learn more about Mark and his day-to-day life.
 
+As a new user who is a potential collaboration partner with Mark, I want to be able to:
+* easily find information about who Mark is, including his background in cycling.
+* readily access his various social channels to learn more about Mark's lifestyle and assess whether he would be a good fit to work with.
+* have available a simple mechanism/feature by which I can make initial contact with Mark/his team.
+
+### Wireframes
+Wireframes for this website can be accessed in my wireframes folder within this github repository - 
