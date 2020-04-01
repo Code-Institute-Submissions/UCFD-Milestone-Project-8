@@ -50,6 +50,6 @@ There are two fonts used throughout the website - "Muli" and "Quicksand". Both a
 
 * *Social image carousel & social links* - The image carousel hs been sourced from Boostrap with adhoc styling applied in this project. The feature controls allow users to click through images or return to a previous image. The carousel is device responsive.
 
-Social links have been included on the Homepage in the *Social* section and as part of the footer in the other two website pages. Although asymmetric in terms of location of the social links on the Homepage versus the other two pages, I have attempted to connect them visually through use of the same bold colour.
+  * Social links have been included on the Homepage in the *Social* section and as part of the footer in the other two website pages. Although asymmetric in terms of location of the social links on the Homepage versus the other two pages, I have attempted to connect them visually through use of the same bold colour.
 
 
