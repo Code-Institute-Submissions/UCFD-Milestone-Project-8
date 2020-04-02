@@ -125,7 +125,8 @@ The following are websites used to validate the HTML and CSS code:
    2. Try to submit an empty form and verify that an error message about required fields appears.
    3. Try to submit a completed form without a valid email address format and verfiy that a specific error message appears.
 
-
+**Bugs identified**
+* When hovering over the Instagram and Twitter social icons (on each page) a small line appears to the bottom right of the image.
 
 ## (5) Deployment
 This project was developed using GitPod, with the repository stored on GitHub.
@@ -156,8 +157,7 @@ You must first ensure:
 
 For more information or guidance, please see the relevant help section [Cloning a Repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
-
-## Credits
+## (6) Credits
 
 ### Content
 * All narrative content has been written by the developer.
@@ -167,4 +167,4 @@ For more information or guidance, please see the relevant help section [Cloning 
 * Images throughout the website have been sourced via Google Images but are being used for educational/assignment purposes only.
 
 ### Acknowledgements
-I would like to thank my mentor, [Sandeep Aggarwal](https://github.com/asandeep), for his constuctive feedback and guidance throughout the project.
+I would like to thank my mentor, [Sandeep Aggarwal](https://github.com/asandeep), for his constructive feedback and guidance throughout the project.
