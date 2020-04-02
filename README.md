@@ -44,23 +44,23 @@ The website was designed with simplicity in mind, whilst being immediately engag
 There are two fonts used throughout the website - "Muli" and "Quicksand". Both are engaging, easy to read and versatile. A variety of letter spacing has been used throughout the website.
 
 ### Existing Features
-* *Navigation Bar* - This has been sourced from Boostrap with adhoc styling applied. The navbar is implemented in a consistent manner across all three website pages. It is device responsive and the menu items will collapse into a dropdown menu depending on device size. The MARK CAVENDISH header/title acts as an alternative homepage link/menu option.
+* *Navigation Bar* - This has been sourced from Bootstrap with bespoke styling applied. The navbar is implemented in a consistent manner across all three website pages. It is device responsive and the menu items will collapse into a dropdown menu depending on device size. The MARK CAVENDISH header/title acts as an alternative homepage link/menu option.
 
-* *Racing jumbotrons & external links* - The two racing subsections are created through implementation of Bootstrap jumbotrons, with adhoc styling applied. These jumbotrons are device responsive. The external links direct the user to relevant additional information.
+* *Racing jumbotrons & external links* - The two racing subsections are created through implementation of Bootstrap jumbotrons, with bespoke styling applied. These jumbotrons are device responsive. The external links direct the user to relevant additional information.
 
-* *Social image carousel & social links* - The image carousel hs been sourced from Boostrap with adhoc styling applied. The feature controls allow users to click through images or return to a previous image. The carousel is device responsive.
+* *Social image carousel & social links* - The image carousel has been sourced from Bootstrap with bespoke styling applied. The feature controls allow users to click through images or return to a previous image. The carousel is device responsive.
 
-  * Social links have been included on the Homepage in the *Social* section and as part of the footer in the other two website pages. Although asymmetric in terms of location of the social links on the Homepage versus the other two pages, I have attempted to connect them visually through use of the same bold colour.
+  * Social links have been included on the Homepage in the *Social* section and as part of the Footer in the other two website pages. Although asymmetric in terms of location of the social links on the Homepage versus the other two pages, they have been connected visually through use of the same bold colour.
 
-* *Collaboration Button* - This offers a clear direction to users and brings them to the dedicated contact/collaboration page. The hover colour change indicates illustrates to the user that the button is active/responsive.
+* *Collaboration Button* - This offers a clear direction to users and brings them to the dedicated contact/collaboration page. The hover colour change illustrates to the user that the button is active/responsive.
 
-* *Contact page form* - This form has been sourced from Boostrap with adhoc styling applied. It has been styled in a way to offer clear instructions through the use of placeholders in each input section. The hover colour change prompts the user to click the button to submit. THere are form validations in each input section, including the requirements for a valid email format.
+* *Contact page form* - This form has been sourced from Bootstrap with bespoke styling applied. It has been styled in a way to offer clear instructions through the use of placeholders in each input section. The hover colour change prompts the user to click the button to submit. There are form validations in each input section, including the requirements for a valid email format.
 
 ### Features left to implement
 * As per original wireframes, I think a dedicated, interactive Racing page would be a valuable additional feature. It could allow the user a more indepth insight into Mark's racing season, perhaps including a dashboard with, for example, power output during the race which is a commonly tracked metric.
 * A mechanism to periodically refresh/update images (and perhaps tweets) from Mark's social channels, rathering than having to manually load the images.
 * Appropriate architecture/mechanism to caputre submitted form inputs.
-* The tables in the profile section have been constructed using key/value pairs, rather than using a standard table format. This was a conscious decision as it would be nice to add additional responsiveness to these sections/features particularly across device types - i.e. that tehy would not necessarily remain in tabular format.
+* The tables in the profile section have been constructed using key/value pairs, rather than using a standard table format. This was a conscious decision as it would be nice to add additional responsiveness to these sections/features particularly across device types - i.e. that they would not necessarily remain in tabular format.
 
 ## (3) Technologies Used
 
@@ -92,19 +92,19 @@ The following are websites used to validate the HTML and CSS code:
 
 ### Scenario Testing
 1. Navigation Bar - Homepage, Profile page, Contact page
-   1. Go to top of the homepage.
-   2. Try to navigate to other pages using buttons indicated.
+   1. Go to top of the Homepage.
+   2. Try to navigate to other pages using buttons indicated, verifying that the correct page is reached.
    3. Repeat step (ii) when on each page.
-   4. Go to either Profile or Contact page. Try to return to the homepage by clicking MARK CAVENDISH icon.
+   4. Go to either Profile or Contact page. Try to return to the Homepage by clicking MARK CAVENDISH icon.
    5. Repeat step (iv) for other page (either Profile or Contact).
 
 2. Homepage - Racing section - external links
-   1. Go to "Racing" section on the homepage.
+   1. Go to "Racing" section on the Homepage.
    2. In the left/top jumbotron (depending on screen size), click the link and verify you are directed to an external website.
    3. In the right/bottom jumbotron (depending on screen size), click the link and verify you are directed to an external website.
 
 3. Homepage - image carousel
-   1. Go to the image carousel on the homepage.
+   1. Go to the image carousel on the Homepage.
    2. Click on the forwards/backwards icons and verify that you can navigate through the images.
 
 4. Social Links - Homepage, Profile page, Contact page
@@ -112,21 +112,21 @@ The following are websites used to validate the HTML and CSS code:
    2. Click on each of the 3 social media account icons and verify that you are taken to the relevant social media account.
   
 5. Homepage - Collaboration button
-   1. Go to "Collaboration" section on the homepage.
+   1. Go to "Collaboration" section on the Homepage.
    2. Click on the 'Get in Touch' button and verify you are directed to the Contact page.
   
 6. Profile page - Awards pictures/links
-   1. Go to the Profile page
+   1. Go to the Profile page.
    2. Click on the image presented beneath/next to the first award narrative and verify that you are directed to an external website.
    3. Click on the image presented beneath/next to the second award narrative and verify that you are directed to an external website.
   
-7. Contact page - form
+7. Contact page - Form
    1. Go to the Contact page
    2. Try to submit an empty form and verify that an error message about required fields appears.
-   3. Try to submit a completed form without a valid email address format and verfiy that a specific error message appears.
+   3. Try to submit a completed form without a valid email address format and verIFy that a specific error message appears.
 
 **Bugs identified**
-* When hovering over the Instagram and Twitter social icons (on each page) a small line appears to the bottom right of the image.
+* When hovering over the Instagram and Twitter social icons (on each page) a sHORT line appears to the bottom right of the image.
 
 ## (5) Deployment
 This project was developed using GitPod, with the repository stored on GitHub.
@@ -137,10 +137,10 @@ This project was developed using GitPod, with the repository stored on GitHub.
 ### This website was deployed on GitHub Pages by undertaking the following steps:
 1. Navigate to the repository - https://github.com/MichaelpHann/UCFD-Milestone-Project
 2. In the GitHub header/navigation ribbon, select the "Settings" option.
-3. Scroll down the page to the GitHub pages subsection.
+3. Scroll down the page to the GitHub Pages subsection.
 4. Click on the "Source" dropdown and select "master branch".
 5. Click to confirm selection.
-6. The website should now be live on GitHub pages, with a link shown immediately above at the top of the GitHub Pages subsection.
+6. The website should now be live on GitHub Pages, with a link shown at the top of the GitHub Pages subsection.
 
 ### Instructions to run the project locally:
 You must first ensure:
@@ -161,7 +161,7 @@ For more information or guidance, please see the relevant help section [Cloning 
 
 ### Content
 * All narrative content has been written by the developer.
-* As disclosed in this file, a number of template features, e.g. Navbar, Jumbotron, Carousel, have been sourced from Bootstrap, with adhoc styling applied by the developer.
+* As disclosed in this file, a number of template features, e.g. Navbar, Jumbotron, Carousel, have been sourced from Bootstrap, with bespoke styling applied by the developer.
 
 ### Media
 * Images throughout the website have been sourced via Google Images but are being used for educational/assignment purposes only.
