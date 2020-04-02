@@ -94,9 +94,9 @@ The following are websites used to validate the HTML and CSS code:
 1. Navigation Bar - Homepage, Profile page, Contact page
    1. Go to top of the homepage.
    2. Try to navigate to other pages using buttons indicated.
-   3. Repeat step (2) when on each page.
+   3. Repeat step (ii) when on each page.
    4. Go to either Profile or Contact page. Try to return to the homepage by clicking MARK CAVENDISH icon.
-   5. Repeat step (4) for other page (either Profile or Contact).
+   5. Repeat step (iv) for other page (either Profile or Contact).
 
 2. Homepage - Racing section - external links
    1. Go to "Racing" section on the homepage.
