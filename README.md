@@ -15,7 +15,7 @@ The consolidated platform enables users to learn about Mark's past success, foll
 #### User Stories
 As a new user of this website, I want to be able to:
 * intuitively understand the flow of the content and format.
-* quickly understand how to navigate through the website.
+* quickly understand how to navigate throughout the website.
 * be engaged through content styling, format and content.
 
 As a new or repeat user who is an "active" cycling fan, I want to be able to:
