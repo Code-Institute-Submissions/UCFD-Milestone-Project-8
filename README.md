@@ -33,8 +33,7 @@ As a new user who is a potential collaboration partner with Mark, I want to be a
 * have available a simple mechanism/feature by which I can make initial contact with Mark/his team.
 
 ### Wireframes
-Wireframes for this website can be accessed in my wireframes folder within this github repository - https://github.com/MichaelpHann/UCFD-Milestone-Project/tree/master/wireframes - automatic!
-[My Wireframes](https://github.com/MichaelpHann/UCFD-Milestone-Project/tree/master/wireframes)
+Wireframes for this website can be accessed in my wireframes folder within this github repository - [My Wireframes](https://github.com/MichaelpHann/UCFD-Milestone-Project/tree/master/wireframes)
 
 ## Features
 
