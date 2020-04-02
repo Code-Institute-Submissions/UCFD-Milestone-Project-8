@@ -44,12 +44,38 @@ The website was designed with simplicity in mind, whilst being immediately engag
 There are two fonts used throughout the website - "Muli" and "Quicksand". Both are engaging, easy to read and versatile. A variety of letter spacing has been used throughout the website.
 
 ### Existing Features
-* *Navigation Bar* - This has been sourced from Boostrap with adhoc styling applied in this project. The navbar is implemented in a consistent manner across all three website pages. It clearly displays the user menu options. It is device responsive and the menu items will collapse into a dropdown menu depending on device size. The MARK CAVENDISH header/title acts as an alternative homepage link/menu option.
+* *Navigation Bar* - This has been sourced from Boostrap with adhoc styling applied. The navbar is implemented in a consistent manner across all three website pages. It is device responsive and the menu items will collapse into a dropdown menu depending on device size. The MARK CAVENDISH header/title acts as an alternative homepage link/menu option.
 
-* *Racing jumbotron & external links* - The two distinct subsections are created through implementation of Bootstrap jumbotrons, with adhoc styling applied in this project. These jumbotrons are device responsive. The external links direct the user to relevant additional information.
+* *Racing jumbotrons & external links* - The two racing subsections are created through implementation of Bootstrap jumbotrons, with adhoc styling applied. These jumbotrons are device responsive. The external links direct the user to relevant additional information.
 
-* *Social image carousel & social links* - The image carousel hs been sourced from Boostrap with adhoc styling applied in this project. The feature controls allow users to click through images or return to a previous image. The carousel is device responsive.
+* *Social image carousel & social links* - The image carousel hs been sourced from Boostrap with adhoc styling applied. The feature controls allow users to click through images or return to a previous image. The carousel is device responsive.
 
   * Social links have been included on the Homepage in the *Social* section and as part of the footer in the other two website pages. Although asymmetric in terms of location of the social links on the Homepage versus the other two pages, I have attempted to connect them visually through use of the same bold colour.
 
+* *Collaboration Button* - This offers a clear direction to users and brings them to the dedicated contact/collaboration page. The hover colour change indicates illustrates to the user that the button is active/responsive.
 
+* *Contact page form* - This form has been sourced from Boostrap with adhoc styling applied. It has been styled in a way to offer clear instructions through the use of placeholders in each input section. The hover colour change prompts the user to click the button to submit. THere are form validations in each input section, including the requirements for a valid email format.
+
+### Features left to implement
+* As per original wireframes, I think a dedicated, interactive Racing page would be a valuable additional feature. It could allow the user a more indepth insight into Mark's racing season, perhaps including a dashboard with, for example, power output during the race which is a commonly tracked metric.
+
+* A mechanism to periodically refresh/update images (and perhaps tweets) from Mark's social channels, rathering than having to manually load the images.
+
+* Appropriate architecture/mechanism to caputre submitted form inputs.
+
+* The tables in the profile section have been constructed using key/value pairs, rather than using a standard table format. This was a conscious decision as it would be nice to add additional responsiveness to these sections/features particularly across device types - i.e. that tehy would not necessarily remain in tabular format.
+
+## Technologies Used
+
+* This project has been completed using HTML & CSS programming languages.
+
+### Libraries / other technologies used
+This project uses:
+https://getbootstrap.com/
+* This project uses Bootstrap 4.3.1 to simplify elements of the website structure and improve its responsiveness.
+
+
+
+### Tools used
+* Gitpod - was used to build the website.
+* Github - was used to store project code remotely.
