@@ -108,7 +108,7 @@ This project was developed using GitPod, with the repository stored on GitHub.
 6. The website should now be live on GitHub pages, with a link shown immediately above at the top of the GitHub Pages subsection.
 
 ### Instructions to run the project locally:
-* You must first ensure:
+You must first ensure:
   * you have installed a preferred IDE, such as [VS Code](https://code.visualstudio.com/)
   * you have installed [Git](https://git-scm.com/)
  
