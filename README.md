@@ -20,7 +20,7 @@ As a new user of this website, I want to be able to:
 
 As a new or repeat user who is an "active" cycling fan, I want to be able to:
 * easily locate information on Mark's latest racing result.
-* access more in-depth reporting on the race through a link to an relevant external website.
+* access more in-depth reporting and analysis of the race.
 * easily see the next event in which Mark is scheduled to race.
 
 As a new user who wants to learn more about Mark, I want to be able to:
