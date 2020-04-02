@@ -58,11 +58,8 @@ There are two fonts used throughout the website - "Muli" and "Quicksand". Both a
 
 ### Features left to implement
 * As per original wireframes, I think a dedicated, interactive Racing page would be a valuable additional feature. It could allow the user a more indepth insight into Mark's racing season, perhaps including a dashboard with, for example, power output during the race which is a commonly tracked metric.
-
 * A mechanism to periodically refresh/update images (and perhaps tweets) from Mark's social channels, rathering than having to manually load the images.
-
 * Appropriate architecture/mechanism to caputre submitted form inputs.
-
 * The tables in the profile section have been constructed using key/value pairs, rather than using a standard table format. This was a conscious decision as it would be nice to add additional responsiveness to these sections/features particularly across device types - i.e. that tehy would not necessarily remain in tabular format.
 
 ## Technologies Used
