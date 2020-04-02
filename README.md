@@ -38,7 +38,7 @@ Wireframes for this website can be accessed in my wireframes folder within this 
 ## (2) Features
 
 ### Layout
-The website was designed with simplicity in mind, whilst being immediately engaging for the user. Having several features/sections on the main hompeage allows the user to easily find a point of particular interest. The subsequent two pages provide for more specific use functions.
+The website was designed with simplicity in mind, whilst being immediately engaging for the user. Having several features/sections on the main hompeage allows the user to easily find a point of particular interest. The subsequent two pages provide for more specific user functions.
 
 ### Font
 There are two fonts used throughout the website - "Muli" and "Quicksand". Both are engaging, easy to read and versatile. A variety of letter spacing has been used throughout the website.
