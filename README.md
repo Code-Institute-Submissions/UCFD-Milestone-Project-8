@@ -70,7 +70,7 @@ There are two fonts used throughout the website - "Muli" and "Quicksand". Both a
 This project uses:
 * **Bootstrap 4.3.1** to simplify elements of the website structure and improve its responsiveness. https://getbootstrap.com/
 * **Googe Fonts** to style the website fonts. https://fonts.google.com/
-* **Fontawesome** to style the website with icons. https://fontawesome.com/
+* **Fontawesome 5.11.2** to style the website with icons. https://fontawesome.com/
 
 ### Tools used
 * **Gitpod** - was used to build the website.
@@ -88,4 +88,7 @@ Throughout the build I used Google Chome Developer tool to assess and amend devi
 The following are websites used to validate the HTML and CSS code:
 * W3C HTML Validator  https://validator.w3.org/
 * W3C CSS Validator https://jigsaw.w3.org/css-validator/
+
+### Scenario Testing
+
 
