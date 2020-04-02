@@ -68,11 +68,16 @@ There are two fonts used throughout the website - "Muli" and "Quicksand". Both a
 
 ### Libraries / other technologies used
 This project uses:
-
 * **Bootstrap 4.3.1** to simplify elements of the website structure and improve its responsiveness. https://getbootstrap.com/
 * **Googe Fonts** to style the website fonts. https://fonts.google.com/
 * **Fontawesome** to style the website with icons. https://fontawesome.com/
 
 ### Tools used
-* Gitpod - was used to build the website.
-* Github - was used to store project code remotely.
+* **Gitpod** - was used to build the website.
+* **Github** - was used to store project code remotely.
+
+## Testing
+
+### User Testing
+
+
