@@ -103,6 +103,13 @@ This project was developed using GitPod, with the repository stored on GitHub.
 1. Navigate to the repository - https://github.com/MichaelpHann/UCFD-Milestone-Project (also linked directly above)
 2. In the GitHub header/navigation ribbon, select the "Settings" option.
 3. Scroll down the page to the GitHub pages subsection.
-4. Click on the "source" dropdown and select "master branch".
+4. Click on the "Source" dropdown and select "master branch".
 5. Click to confirm selection.
 6. The website should now be live on GitHub pages, with a link shown immediately above at the top of the GitHub Pages subsection.
+
+### Instructions to run the project locally:
+* You must first ensure:
+ * you have installed a preferred IDE, such as [VS Code](https://code.visualstudio.com/)
+ * you have installed [Git](https://git-scm.com/)
+ 
+1. 
