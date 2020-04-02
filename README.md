@@ -6,7 +6,7 @@ This website is designed to profile the professional cyclist, Mark Cavendish. It
 
 *NB for C.I. assessment purposes - it has been my intention to develop this website for a friend who is an up-and-coming semi-professional cyclist in Ireland. However, as a result of some unexpected personal circumstances I was unable to engage with him throughout the project duration, to consider content and obtain suitable images. I therefore retained the concept but pivoted my approach to producing a website for Mark Cavendish, given my own knowledge and readily available content/resources.*
 
-## UX
+## (1) UX
 
 The website has been designed for a range of users - from those who are cycling enthusiasts and fans of Mark Cavendish, to those who are trying to learn about who Mark is for the first time. Whatever the user background, they should hopefully find the website format engaging and east to navigate, and the content informative.
 
@@ -35,7 +35,7 @@ As a new user who is a potential collaboration partner with Mark, I want to be a
 ### Wireframes
 Wireframes for this website can be accessed in my wireframes folder within this github repository - [my wireframes](https://github.com/MichaelpHann/UCFD-Milestone-Project/tree/master/wireframes)
 
-## Features
+## (2) Features
 
 ### Layout
 The website was designed with simplicity in mind, whilst being immediately engaging for the user. Having several features/sections on the main hompeage allows the user to easily find a point of particular interest. The subsequent two pages provide for more specific use functions.
@@ -62,7 +62,7 @@ There are two fonts used throughout the website - "Muli" and "Quicksand". Both a
 * Appropriate architecture/mechanism to caputre submitted form inputs.
 * The tables in the profile section have been constructed using key/value pairs, rather than using a standard table format. This was a conscious decision as it would be nice to add additional responsiveness to these sections/features particularly across device types - i.e. that tehy would not necessarily remain in tabular format.
 
-## Technologies Used
+## (3) Technologies Used
 
 * This project has been completed using HTML & CSS programming languages.
 
@@ -77,7 +77,7 @@ This project uses:
 * **Github** - was used to store project code remotely.
 * **Google Chrome Developer Tool** - was used to test the device responsiveness of the website.
 
-## Testing
+## (4) Testing
 
 ### User Testing
 **Manual User Testing** was the primary method of testing during this project. A number of people were asked to visit the website using a variety of devices (both mobile and tablet) throughout the latter stages of the project. This testing and feedback was invaluable in uncovering bugs and finalising design/format.
@@ -93,7 +93,7 @@ The following are websites used to validate the HTML and CSS code:
 
 
 
-## Deployment
+## (5) Deployment
 This project was developed using GitPod, with the repository stored on GitHub.
 
 * The GitHub repository is [here](https://github.com/MichaelpHann/UCFD-Milestone-Project)
@@ -112,4 +112,12 @@ This project was developed using GitPod, with the repository stored on GitHub.
   * you have installed a preferred IDE, such as [VS Code](https://code.visualstudio.com/)
   * you have installed [Git](https://git-scm.com/)
  
-1. 
+1. Navigate to the project repository [here](https://github.com/MichaelpHann/UCFD-Milestone-Project).
+2. Select the green "Clone or download" dropdown button.
+3. Highlight the URL provided or click the button to copy the URL.
+4. Open your terminal.
+5. Navigate to the working directory where the cloned repository will be placed.
+6. In the command line type "git clone" then paste the previously copied URL immediately after.
+7. Press Enter.
+
+For more information or guidance, please see the relevant help section [Cloning a Repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
