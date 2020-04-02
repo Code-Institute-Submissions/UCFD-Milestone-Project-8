@@ -80,5 +80,12 @@ This project uses:
 ## Testing
 
 ### User Testing
-**Manual User Testing** was the primary method of testing during this project. Throughout the build I used Google Chome Developer tool to assess and 
+**Manual User Testing** was the primary method of testing during this project. A number of people were asked to visit the website using a variety of devices (both mobile and tablet) throughout the latter stages of the project. This testing and feedback was invaluable in uncovering bugs and finalising design/format.
+
+Throughout the build I used Google Chome Developer tool to assess and amend device responsiveness of the website.
+
+### Validator Tools Used
+The following are websites used to validate the HTML and CSS code:
+* W3C HTML Validator  https://validator.w3.org/
+* W3C CSS Validator https://jigsaw.w3.org/css-validator/
 
