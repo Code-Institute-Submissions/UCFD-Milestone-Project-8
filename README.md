@@ -71,8 +71,8 @@ There are two fonts used throughout the website - "Muli" and "Quicksand". Both a
 
 ### Libraries / other technologies used
 This project uses:
-https://getbootstrap.com/
-* This project uses Bootstrap 4.3.1 to simplify elements of the website structure and improve its responsiveness.
+
+* This project uses Bootstrap 4.3.1 to simplify elements of the website structure and improve its responsiveness. https://getbootstrap.com/
 
 
 
