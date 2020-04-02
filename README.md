@@ -134,7 +134,7 @@ This project was developed using GitPod, with the repository stored on GitHub.
 * The GitHub repository is [here](https://github.com/MichaelpHann/UCFD-Milestone-Project)
 * The website is live [here](https://michaelphann.github.io/UCFD-Milestone-Project/)
 
-### This website was deployed on GitHub Pages by undertaking the following steps:
+#### This website was deployed on GitHub Pages by undertaking the following steps:
 1. Navigate to the repository - https://github.com/MichaelpHann/UCFD-Milestone-Project
 2. In the GitHub header/navigation ribbon, select the "Settings" option.
 3. Scroll down the page to the GitHub Pages subsection.
@@ -142,7 +142,7 @@ This project was developed using GitPod, with the repository stored on GitHub.
 5. Click to confirm selection.
 6. The website should now be live on GitHub Pages, with a link shown at the top of the GitHub Pages subsection.
 
-### Instructions to run the project locally:
+#### Instructions to run the project locally:
 You must first ensure:
   * you have installed a preferred IDE, such as [VS Code](https://code.visualstudio.com/)
   * you have installed [Git](https://git-scm.com/)
