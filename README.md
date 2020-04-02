@@ -86,8 +86,8 @@ Throughout the build I used Google Chome Developer tool to assess and amend devi
 
 ### Validator Tools Used
 The following are websites used to validate the HTML and CSS code:
-* W3C HTML Validator  https://validator.w3.org/
-* W3C CSS Validator https://jigsaw.w3.org/css-validator/
+* [W3C HTML Validator](https://validator.w3.org/)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ### Scenario Testing
 
