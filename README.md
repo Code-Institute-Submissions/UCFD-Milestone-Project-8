@@ -8,7 +8,7 @@ This website is designed to profile the professional cyclist, Mark Cavendish. It
 
 ## (1) UX
 
-The website has been designed for a range of users - from those who are cycling enthusiasts and fans of Mark Cavendish, to those who are trying to learn about who Mark is for the first time. Whatever the user background, they should hopefully find the website format engaging and east to navigate, and the content informative.
+The website has been designed for a range of users - from those who are cycling enthusiasts and fans of Mark Cavendish, to those who are trying to learn about who Mark is for the first time. Whatever the user background, they should hopefully find the website format engaging and easy to navigate, and the content informative.
 
 The consolidated platform enables users to learn about Mark's past success, follow his latest racing schedule, explore his social channels and, as appropriate, easily contact Mark to discuss the potential of a commercial partnership.
 
