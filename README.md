@@ -1,4 +1,4 @@
-This is my first Milestone Project as part of the Code Institute's Diploma in Software Development
+This is my first Milestone Project as part of the Code Institute's Diploma in Software Development.
 
 ## Mark Cavendish - Professional Cyclist
 
