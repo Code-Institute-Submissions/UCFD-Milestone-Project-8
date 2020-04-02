@@ -75,9 +75,10 @@ This project uses:
 ### Tools used
 * **Gitpod** - was used to build the website.
 * **Github** - was used to store project code remotely.
+* **Google Chrome Developer Tool** - was used to test the device responsiveness of the website.
 
 ## Testing
 
 ### User Testing
-
+**Manual User Testing** was the primary method of testing during this project. Throughout the build I used Google Chome Developer tool to assess and 
 
