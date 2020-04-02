@@ -75,8 +75,8 @@ This project uses:
 ### Tools used
 * **Gitpod** - was used to build the website.
 * **Github** - was used to store project code remotely.
-* **Google Chrome Developer Tool** - was used to test the device responsiveness of the website.
-* **Canva** - was used to format and resize website images.
+* **[Google Chrome Developer Tools(https://developers.google.com/web/tools/chrome-devtools)** - was used to test the device responsiveness of the website.
+* **[Canva](https://www.canva.com/)** - was used to format and resize website images.
 
 ## (4) Testing
 
