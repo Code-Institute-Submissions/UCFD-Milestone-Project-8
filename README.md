@@ -92,7 +92,7 @@ The following are websites used to validate the HTML and CSS code:
 
 ### Scenario Testing
 1. Navigation Bar - Homepage, Profile page, Contact page
-  1. Go to top of the homepage.
+   1. Go to top of the homepage.
   2. Try to navigate to other pages using buttons indicated.
   3. Repeat step (2) when on each page.
   4. Go to either Profile or Contact page. Try to return to the homepage by clicking MARK CAVENDISH icon.
