@@ -109,7 +109,7 @@ This project was developed using GitPod, with the repository stored on GitHub.
 
 ### Instructions to run the project locally:
 * You must first ensure:
- * you have installed a preferred IDE, such as [VS Code](https://code.visualstudio.com/)
- * you have installed [Git](https://git-scm.com/)
+  * you have installed a preferred IDE, such as [VS Code](https://code.visualstudio.com/)
+  * you have installed [Git](https://git-scm.com/)
  
 1. 
