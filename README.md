@@ -93,37 +93,39 @@ The following are websites used to validate the HTML and CSS code:
 ### Scenario Testing
 1. Navigation Bar - Homepage, Profile page, Contact page
    1. Go to top of the homepage.
-  2. Try to navigate to other pages using buttons indicated.
-  3. Repeat step (2) when on each page.
-  4. Go to either Profile or Contact page. Try to return to the homepage by clicking MARK CAVENDISH icon.
-  5. Repeat step (4) for other page (either Profile or Contact).
+   2. Try to navigate to other pages using buttons indicated.
+   3. Repeat step (2) when on each page.
+   4. Go to either Profile or Contact page. Try to return to the homepage by clicking MARK CAVENDISH icon.
+   5. Repeat step (4) for other page (either Profile or Contact).
 
 2. Homepage - Racing section - external links
-  1. Go to "Racing" section on the homepage.
-  >2. In the left/top jumbotron, click the link and verify you are directed to an external website (jumbotron alignment dependent
-  > on screen size).
-  3. In the right/bottom jumbotron, click the link to access the external website (jumbotron alignment dependent on screen size).
+   1. Go to "Racing" section on the homepage.
+   2. In the left/top jumbotron (depending on screen size), click the link and verify you are directed to an external website.
+   3. In the right/bottom jumbotron (depending on screen size), click the link and verify you are directed to an external website.
 
 3. Homepage - image carousel
-  1. Go to the image carousel on the homepage.
-  2. Try to navigate backwards and forwards through the images using the buttons provided.
+   1. Go to the image carousel on the homepage.
+   2. Click on the forwards/backwards icons and verify that you can navigate through the images.
 
 4. Social Links - Homepage, Profile page, Contact page
-  1. For each page go to the social link icons.
-  2. Click on each of the 3 social media account icons and verify that you are taken to the relevant social media account.
+   1. For each page go to the social link icons.
+   2. Click on each of the 3 social media account icons and verify that you are taken to the relevant social media account.
   
 5. Homepage - Collaboration button
-  1. Go to "Collaboration" section on the homepage.
-  2. Click on the 'Get in Touch' button and verify you are directed to the Contact page.
+   1. Go to "Collaboration" section on the homepage.
+   2. Click on the 'Get in Touch' button and verify you are directed to the Contact page.
   
 6. Profile page - Awards pictures/links
-  1. Go to the Profile page
-  2. Click on the image presented beneath/next to the first award narrative. This will direct the user to a relevant external website.
-  3. Click on the image presented beneath/next to the second award narrative. This will direct the user to a relevant external website.
+   1. Go to the Profile page
+   2. Click on the image presented beneath/next to the first award narrative and verify that you are directed to an external website.
+   3. Click on the image presented beneath/next to the second award narrative and verify that you are directed to an external website.
   
 7. Contact page - form
-  1. Go to the Contact page
-  2. Try to submit the form with no content included.
+   1. Go to the Contact page
+   2. Try to submit an empty form and verify that an error message about required fields appears.
+   3. Try to submit a completed form without a valid email address format and verfiy that a specific error message appears.
+
+
 
 ## (5) Deployment
 This project was developed using GitPod, with the repository stored on GitHub.
