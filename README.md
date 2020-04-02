@@ -96,8 +96,8 @@ The following are websites used to validate the HTML and CSS code:
 ## Deployment
 This project was developed using GitPod, with the repository stored on GitHub.
 
-The GitHub repository is here - [here](https://github.com/MichaelpHann/UCFD-Milestone-Project)
-The website is live here - 
+* The GitHub repository is [here](https://github.com/MichaelpHann/UCFD-Milestone-Project)
+* The website is live here - 
 
 This website was deployed on GitHub Pages by undertaking the following steps:
 1. Navigate to
