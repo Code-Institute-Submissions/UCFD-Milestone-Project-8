@@ -635,7 +635,7 @@ h4 {
 /* ..............................Achievements */
 
 .achievements-column {
-    padding: 35px 0 25px 40px;
+    padding: 35px 20px 25px 20px;
 }
 
 .achievements-header {
@@ -759,27 +759,27 @@ h4 {
     }
 
     .road-race-table .road-race-row .key {
-        width: 130px;
+        width: 30%;
         padding-right: 8px;
-        padding-left: 10px;
+        padding-left: 6px;
     }
     
     .track-race-table .track-race-row .key {
-        width: 130px;
+        width: 30%;
         padding-right: 8px;
-        padding-left: 10px;
+        padding-left: 6px;
     }
 
     .road-race-table .road-race-row .value {
-        width: 230px;
+        width: 55%;
         padding-left: 10px;
-        padding-right: 20px;
+        padding-right: 5px;
     }
     
     .track-race-table .track-race-row .value {
-        width: 230px;
+        width: 55%;
         padding-left: 10px;
-        padding-right: 20px;
+        padding-right: 5px;
     }
 
     .road-race-row i,
