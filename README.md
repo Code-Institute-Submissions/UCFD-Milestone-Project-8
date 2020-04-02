@@ -76,6 +76,7 @@ This project uses:
 * **Gitpod** - was used to build the website.
 * **Github** - was used to store project code remotely.
 * **Google Chrome Developer Tool** - was used to test the device responsiveness of the website.
+* **Canva** - was used to format and resize website images.
 
 ## (4) Testing
 
@@ -121,3 +122,16 @@ You must first ensure:
 7. Press Enter.
 
 For more information or guidance, please see the relevant help section [Cloning a Repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
+
+## Credits
+
+### Content
+* All narrative content has been written by the developer.
+* As disclosed in this file, a number of template features, e.g. Navbar, Jumbotron, Carousel, have been sourced from Bootstrap, with adhoc styling applied by the developer.
+
+### Media
+* Images throughout the website have been sourced via Google Images but are being used for educational/assignment purposes only.
+
+### Acknowledgements
+I would like to thank my mentor, [Sandeep Aggarwal](https://github.com/asandeep), for his constuctive feedback and guidance throughout the project.
